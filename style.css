@@ -9,6 +9,11 @@ img{
     gap: 40px
 }
 
+.item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .top-left {
     position: absolute;
     top: 90px;
