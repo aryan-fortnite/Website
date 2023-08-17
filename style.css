@@ -4,5 +4,16 @@ img{
 
 .container{
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin: 100px;
+    gap: 40px
 }
+
+.top-left {
+    position: absolute;
+    top: 90px;
+    left: 40px;
+    font-size: 85px;
+    font-family: serif, georgia;
+    color:rgb(72, 73, 75)
+  }
