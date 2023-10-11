@@ -20,22 +20,22 @@ img{
 
 .top-left {
     position: absolute;
-    top: 80px;
-    left: 300px;
-    font-size: 100px;
+    top: 250px;
+    left: 1085px;
+    font-size: 150px;
     font-family: serif, georgia;
-    color:rgb(72, 73, 75)
+    color:rgb(245, 245, 245)
   }
   
-  .top-left {
+  /* .top-left {
     width: 1150x;
-    border-radius: 25px;
+    border-radius: 2px;
     border: 15px solid rgb(255, 255, 255);
     background-color: rgb(255, 255, 255);
     opacity: 0.5;
     padding: 50px;
     margin: 20px;
-  }
+  } */
   
 
   .text{
