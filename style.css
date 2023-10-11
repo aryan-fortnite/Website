@@ -20,23 +20,12 @@ img{
 
 .top-left {
     position: absolute;
-    top: 250px;
-    left: 1085px;
+    top: 27%;
+    left: 57%;
     font-size: 150px;
     font-family: serif, georgia;
     color:rgb(245, 245, 245)
   }
-  
-  /* .top-left {
-    width: 1150x;
-    border-radius: 2px;
-    border: 15px solid rgb(255, 255, 255);
-    background-color: rgb(255, 255, 255);
-    opacity: 0.5;
-    padding: 50px;
-    margin: 20px;
-  } */
-  
 
   .text{
     padding-left: 25px;
@@ -49,7 +38,7 @@ img{
   
   .footer{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     position: relative;
     width: 100%;
     height: 100px;
@@ -62,7 +51,8 @@ img{
   }
 
   .left-text{
-    text-align: left;
+    text-align: center;
+    margin: auto;
     font-size: 20px;
   }
 
