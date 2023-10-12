@@ -1,11 +1,14 @@
+/* Makes the margin on the top, bottom, and sides 0 meaning there is no random white strip all around */
 *{
     margin:0
 }
 
+/* Makes all the images on the website 100% of thier size */
 img{
     width: 100%;
 }
 
+/* Use to make a grid for the body */
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -13,11 +16,13 @@ img{
     gap: 40px
 }
 
+/* This is the grid inside the gride to get the image and the text in each grid box */
 .item{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
+/* Styling for the title text */
 .top-left {
     position: absolute;
     top: 27%;
@@ -27,15 +32,18 @@ img{
     color:rgb(245, 245, 245)
   }
 
+  /* Text for the information about the cats */
   .text{
     padding-left: 25px;
     color:rgb(72, 73, 75)
   }
 
+  /* Background colour is a calm off white */
   body{
     background-color: rgb(245, 245, 245);
   }
   
+  /* Footer stlying to make the colours */
   .footer{
     display: grid;
     grid-template-columns: 1fr;
@@ -50,12 +58,14 @@ img{
     clear: both;
   }
 
+  /* Make the text in the footer centerd vertically and horizontally */
   .left-text{
     text-align: center;
     margin: auto;
     font-size: 20px;
   }
 
+  /* Headings for the cats */
   .subtitle{
     top: 20px;
     left: 20px;
